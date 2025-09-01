@@ -14,3 +14,24 @@ Loads data into Amazon Redshift using an Upsert strategy for efficiency
 Computes KPIs such as genre-level metrics (listen counts, popularity index, average track duration) and hourly insights (unique listeners, top artists, track diversity)
 
 The pipeline supports business intelligence, and user behavior analytics, reflecting a practical modern data engineering with Airflow, S3, and Redshift.
+
+
+## Architecture
+### ETL Pipeline Design with Apache Airflow and Amazon Redshift
+
+![ETL Pipeline Architecture](./assets/architecture.png)
+
+## Setup & Running the ETL Pipeline with Airflow & Redshift
+
+### Prerequisites
+Make sure you have these installed and configured before running the project:
+
+Python 3.8+
+
+AWS account signed in as an IAM user
+
+Apache Airflow (MWAA or local Airflow environment)
+
+Amazon Redshift cluster (with database & tables set up)
+
+S3 bucket (for staging streaming data)
