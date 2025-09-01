@@ -16,4 +16,4 @@ REDSHIFT_CONN_ID = "redshift_conn_id"
 
 # Redshift IAM Role ARN for S3 COPY operations
 # associated with Redshift Serverless workgroup.
-REDSHIFT_COPY_IAM_ROLE = "arn:aws:iam::371439860588:role/RedshiftServerlessCopyRole"
+REDSHIFT_COPY_IAM_ROLE = "arn:aws:iam::[your account ID]:role/RedshiftServerlessCopyRole"
